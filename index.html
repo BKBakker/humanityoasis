@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Humanity Oasis - Certified Human-First Businesses</title>
     
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Get your free Humanity Oasis certification badge. Show customers that people come first at your business. Fight AI-driven isolation and the loneliness epidemic.">
-    <meta name="keywords" content="human-first business, fight loneliness, AI transparency, human connection, business certification, verified reality">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     
-    <!-- Schema.org JSON-LD -->
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get your free Humanity Oasis certification badge. Show customers that people come first at your business.">
+    <meta name="keywords" content="human-first business, fight loneliness, AI transparency, human connection, business certification">
+    
+    <!-- Schema.org -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Humanity Oasis",
       "email": "bryan@newsload.ca",
-      "description": "Humanity Oasis certifies businesses that prioritize human connection over AI-driven isolation.",
-      "sameAs": ["https://www.newsload.ca/humanity-oasis"]
+      "description": "Certifying businesses that prioritize human connection over AI-driven isolation."
     }
     </script>
     
@@ -25,76 +27,55 @@
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600&family=Crimson+Pro:wght@300;400;500&display=swap" rel="stylesheet">
     
     <style>
         body {
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
             font-family: 'Crimson Pro', Georgia, serif;
         }
-        
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-20px); }
         }
-        
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
         .animate-float {
             animation: float 6s ease-in-out infinite;
         }
-        
-        .animate-fadeInUp {
-            animation: fadeInUp 1s ease-out forwards;
-        }
     </style>
 </head>
-<body class="bg-gradient-to-b from-amber-50 via-stone-50 to-stone-100">
+<body class="bg-amber-50">
 
     <!-- Hero Section -->
     <section class="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
-        <!-- Background with your photo -->
+        <!-- Background Photo -->
         <div class="absolute inset-0">
             <img src="oct25_2015_25_of_39.jpg" alt="Autumn forest oasis" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-b from-amber-900/60 via-stone-900/50 to-amber-900/70"></div>
         </div>
         
+        <!-- Content -->
         <div class="relative z-10 max-w-5xl mx-auto text-center">
-            <!-- Badge -->
-            <div class="mb-12 relative inline-block">
-                <div class="absolute inset-0 bg-gradient-to-br from-amber-300/30 to-emerald-300/30 rounded-full blur-3xl animate-pulse"></div>
-                <div class="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50">
-                    <img src="HUMANITYOASIS.png" alt="Humanity Oasis Certified Badge" class="w-80 h-auto mx-auto drop-shadow-lg animate-float">
+            <!-- Logo Badge -->
+            <div class="mb-12">
+                <div class="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl inline-block">
+                    <img src="HUMANITYOASIS.png" alt="Humanity Oasis Certified Badge" class="w-80 h-auto mx-auto animate-float">
                 </div>
             </div>
 
-            <h1 class="text-6xl md:text-7xl lg:text-8xl font-light text-white mb-6 leading-tight drop-shadow-2xl animate-fadeInUp" style="font-family: 'Playfair Display', serif; text-shadow: 0 4px 20px rgba(0,0,0,0.5); animation-delay: 0.3s;">
+            <h1 class="text-6xl md:text-8xl font-light text-white mb-6 leading-tight" style="font-family: 'Playfair Display', serif; text-shadow: 0 4px 20px rgba(0,0,0,0.7);">
                 You've Found<br>
-                <span class="text-amber-300 font-normal">The Oasis</span>
+                <span class="text-amber-300">The Oasis</span>
             </h1>
             
-            <p class="text-xl md:text-2xl text-amber-50 max-w-3xl mx-auto leading-relaxed mb-8 drop-shadow-lg animate-fadeInUp" style="text-shadow: 0 2px 10px rgba(0,0,0,0.5); animation-delay: 0.5s;">
-                A sanctuary in the digital desert. Where people come first,
-                connection is real, and humanity matters.
+            <p class="text-xl md:text-2xl text-amber-50 max-w-3xl mx-auto leading-relaxed" style="text-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+                A sanctuary in the digital desert. Where people come first, connection is real, and humanity matters.
             </p>
-
-            <div class="flex gap-3 justify-center items-center text-amber-200 animate-fadeInUp" style="animation-delay: 0.7s;">
-                <span class="text-sm tracking-widest uppercase font-light drop-shadow-lg">Verified Reality</span>
-            </div>
         </div>
 
-        <!-- Scroll indicator -->
+        <!-- Scroll Indicator -->
         <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
             <div class="w-6 h-10 border-2 border-amber-200 rounded-full flex items-start justify-center p-2">
                 <div class="w-1.5 h-1.5 bg-amber-200 rounded-full"></div>
@@ -103,22 +84,14 @@
     </section>
 
     <!-- Mission Statement -->
-    <section class="relative py-32 px-6">
+    <section class="py-32 px-6 bg-gradient-to-b from-amber-50 to-stone-50">
         <div class="max-w-4xl mx-auto">
-            <div class="bg-white/60 backdrop-blur-md rounded-3xl p-12 md:p-16 shadow-xl border border-stone-200/50">
-                <div class="flex items-center justify-center mb-8">
-                    <div class="bg-gradient-to-br from-amber-100 to-emerald-100 p-4 rounded-full">
-                        <svg class="w-12 h-12 text-amber-700" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
-                        </svg>
-                    </div>
-                </div>
-                
-                <h2 class="text-4xl md:text-5xl font-light text-center text-stone-800 mb-8" style="font-family: 'Playfair Display', serif;">
+            <div class="bg-white/60 backdrop-blur-md rounded-3xl p-16 shadow-xl text-center">
+                <div class="text-6xl mb-6">❤️</div>
+                <h2 class="text-5xl font-light text-stone-800 mb-8" style="font-family: 'Playfair Display', serif;">
                     People Come First Here
                 </h2>
-                
-                <p class="text-xl text-stone-700 leading-relaxed text-center max-w-2xl mx-auto">
+                <p class="text-xl text-stone-700 leading-relaxed">
                     Welcome to the Humanity Oasis — a badge you can display with pride that says: 
                     "Yep. People come first here." In an era when chatbots can write anything and 
                     marketing agents can sell anything, we recognize organizations who make real 
@@ -129,23 +102,19 @@
     </section>
 
     <!-- The Problem -->
-    <section class="relative py-32 px-6 bg-gradient-to-br from-stone-100 to-amber-50/50">
+    <section class="py-32 px-6 bg-gradient-to-b from-stone-50 to-amber-50">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
-                <h2 class="text-5xl md:text-6xl font-light text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
+                <h2 class="text-6xl font-light text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
                     The Desert We're Lost In
                 </h2>
-                <div class="w-24 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto"></div>
+                <div class="w-24 h-1 bg-amber-400 mx-auto"></div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-10 shadow-lg border border-stone-200/50 hover:scale-105 transition-transform duration-500">
-                    <div class="w-16 h-16 bg-gradient-to-br from-stone-400 to-stone-600 rounded-full flex items-center justify-center mb-6 mx-auto opacity-70">
-                        <span class="text-3xl">🤖</span>
-                    </div>
-                    <h3 class="text-2xl font-normal text-stone-800 mb-4 text-center">
-                        AI-Driven Isolation
-                    </h3>
+                <div class="bg-white/80 rounded-2xl p-10 shadow-lg hover:scale-105 transition-transform duration-500">
+                    <div class="text-5xl mb-6 text-center">🤖</div>
+                    <h3 class="text-2xl font-normal text-stone-800 mb-4 text-center">AI-Driven Isolation</h3>
                     <p class="text-stone-600 leading-relaxed text-center">
                         As time goes on, it's getting increasingly harder to tell the difference 
                         between who, or what, you're talking to online. The line between human and 
@@ -153,17 +122,12 @@
                     </p>
                 </div>
 
-                <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-10 shadow-lg border border-stone-200/50 hover:scale-105 transition-transform duration-500">
-                    <div class="w-16 h-16 bg-gradient-to-br from-stone-400 to-stone-600 rounded-full flex items-center justify-center mb-6 mx-auto opacity-70">
-                        <span class="text-3xl">😔</span>
-                    </div>
-                    <h3 class="text-2xl font-normal text-stone-800 mb-4 text-center">
-                        The Loneliness Epidemic
-                    </h3>
+                <div class="bg-white/80 rounded-2xl p-10 shadow-lg hover:scale-105 transition-transform duration-500">
+                    <div class="text-5xl mb-6 text-center">😔</div>
+                    <h3 class="text-2xl font-normal text-stone-800 mb-4 text-center">The Loneliness Epidemic</h3>
                     <p class="text-stone-600 leading-relaxed text-center">
                         More people retreat into online worlds and digital relationships. 
-                        The things that make us human—fun, exercise, laughter, real connection—
-                        are becoming harder to find.
+                        The things that make us human—fun, exercise, laughter, real connection—are becoming harder to find.
                     </p>
                 </div>
             </div>
@@ -171,76 +135,63 @@
     </section>
 
     <!-- The Solution -->
-    <section class="relative py-32 px-6">
+    <section class="py-32 px-6 bg-gradient-to-b from-amber-50 to-stone-50">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-3 bg-emerald-100/60 px-6 py-3 rounded-full mb-6">
+                <div class="inline-block bg-emerald-100 px-6 py-3 rounded-full mb-6">
                     <span class="text-emerald-800 font-light tracking-wide">The Answer</span>
                 </div>
-                
-                <h2 class="text-5xl md:text-6xl font-light text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
+                <h2 class="text-6xl font-light text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
                     A Badge of Humanity
                 </h2>
                 <p class="text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed">
-                    The Humanity Oasis certification is a visible symbol that tells your customers: 
-                    this is a human-first space.
+                    The Humanity Oasis certification is a visible symbol that tells your customers: this is a human-first space.
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-                <div class="bg-gradient-to-br from-white to-amber-50/50 rounded-2xl p-8 text-center border border-amber-200/50 shadow-md hover:shadow-xl transition-shadow duration-500">
-                    <div class="bg-gradient-to-br from-amber-200 to-emerald-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-2xl">❤️</span>
-                    </div>
+            <div class="grid md:grid-cols-4 gap-6 mb-16">
+                <div class="bg-white rounded-2xl p-8 text-center shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-4xl mb-4">❤️</div>
                     <h3 class="text-lg font-normal text-stone-800 mb-2">Real Connection</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">Bringing people together in meaningful ways</p>
+                    <p class="text-sm text-stone-600">Bringing people together in meaningful ways</p>
                 </div>
-
-                <div class="bg-gradient-to-br from-white to-amber-50/50 rounded-2xl p-8 text-center border border-amber-200/50 shadow-md hover:shadow-xl transition-shadow duration-500">
-                    <div class="bg-gradient-to-br from-amber-200 to-emerald-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-2xl">👥</span>
-                    </div>
+                <div class="bg-white rounded-2xl p-8 text-center shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-4xl mb-4">👥</div>
                     <h3 class="text-lg font-normal text-stone-800 mb-2">Fight Loneliness</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">Creating spaces where community thrives</p>
+                    <p class="text-sm text-stone-600">Creating spaces where community thrives</p>
                 </div>
-
-                <div class="bg-gradient-to-br from-white to-amber-50/50 rounded-2xl p-8 text-center border border-amber-200/50 shadow-md hover:shadow-xl transition-shadow duration-500">
-                    <div class="bg-gradient-to-br from-amber-200 to-emerald-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-2xl">✨</span>
-                    </div>
+                <div class="bg-white rounded-2xl p-8 text-center shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-4xl mb-4">✨</div>
                     <h3 class="text-lg font-normal text-stone-800 mb-2">Fun & Laughter</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">Prioritizing joy and human experience</p>
+                    <p class="text-sm text-stone-600">Prioritizing joy and human experience</p>
                 </div>
-
-                <div class="bg-gradient-to-br from-white to-amber-50/50 rounded-2xl p-8 text-center border border-amber-200/50 shadow-md hover:shadow-xl transition-shadow duration-500">
-                    <div class="bg-gradient-to-br from-amber-200 to-emerald-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-2xl">☀️</span>
-                    </div>
+                <div class="bg-white rounded-2xl p-8 text-center shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-4xl mb-4">☀️</div>
                     <h3 class="text-lg font-normal text-stone-800 mb-2">Exercise & Play</h3>
-                    <p class="text-sm text-stone-600 leading-relaxed">Honoring our evolutionary needs</p>
+                    <p class="text-sm text-stone-600">Honoring our evolutionary needs</p>
                 </div>
             </div>
 
-            <div class="bg-gradient-to-br from-emerald-50 to-amber-50 rounded-3xl p-12 border-2 border-emerald-200/50 shadow-xl">
+            <div class="bg-gradient-to-br from-emerald-50 to-amber-50 rounded-3xl p-12 shadow-xl">
                 <h3 class="text-3xl font-light text-center text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
                     What This Badge Means
                 </h3>
                 <div class="space-y-4 max-w-3xl mx-auto">
-                    <div class="flex items-start gap-4 bg-white/60 backdrop-blur-sm rounded-xl p-4">
-                        <span class="text-emerald-600 text-xl">✓</span>
-                        <p class="text-stone-700 leading-relaxed">This business is human-driven and transparent about AI use</p>
+                    <div class="flex items-start gap-4 bg-white/60 rounded-xl p-4">
+                        <span class="text-emerald-600 text-2xl">✓</span>
+                        <p class="text-stone-700">This business is human-driven and transparent about AI use</p>
                     </div>
-                    <div class="flex items-start gap-4 bg-white/60 backdrop-blur-sm rounded-xl p-4">
-                        <span class="text-emerald-600 text-xl">✓</span>
-                        <p class="text-stone-700 leading-relaxed">They provide products or services good for humans based on our evolutionary past</p>
+                    <div class="flex items-start gap-4 bg-white/60 rounded-xl p-4">
+                        <span class="text-emerald-600 text-2xl">✓</span>
+                        <p class="text-stone-700">They provide products or services good for humans based on our evolutionary past</p>
                     </div>
-                    <div class="flex items-start gap-4 bg-white/60 backdrop-blur-sm rounded-xl p-4">
-                        <span class="text-emerald-600 text-xl">✓</span>
-                        <p class="text-stone-700 leading-relaxed">They fight loneliness and prioritize real-world connection</p>
+                    <div class="flex items-start gap-4 bg-white/60 rounded-xl p-4">
+                        <span class="text-emerald-600 text-2xl">✓</span>
+                        <p class="text-stone-700">They fight loneliness and prioritize real-world connection</p>
                     </div>
-                    <div class="flex items-start gap-4 bg-white/60 backdrop-blur-sm rounded-xl p-4">
-                        <span class="text-emerald-600 text-xl">✓</span>
-                        <p class="text-stone-700 leading-relaxed">They offer fun, exercise, laughter—the things we should get more of</p>
+                    <div class="flex items-start gap-4 bg-white/60 rounded-xl p-4">
+                        <span class="text-emerald-600 text-2xl">✓</span>
+                        <p class="text-stone-700">They offer fun, exercise, laughter—the things we should get more of</p>
                     </div>
                 </div>
             </div>
@@ -248,82 +199,133 @@
     </section>
 
     <!-- Application Form -->
-    <section class="relative py-32 px-6">
+    <section class="py-32 px-6 bg-gradient-to-b from-stone-50 to-amber-50">
         <div class="max-w-4xl mx-auto">
-            <div class="bg-gradient-to-br from-white via-amber-50/30 to-emerald-50/30 rounded-3xl p-12 md:p-16 shadow-2xl border border-amber-200/50">
+            <div class="bg-white rounded-3xl p-16 shadow-2xl">
                 <div class="text-center mb-12">
-                    <div class="inline-flex items-center gap-3 bg-amber-100/80 px-6 py-3 rounded-full mb-6">
+                    <div class="inline-block bg-amber-100 px-6 py-3 rounded-full mb-6">
                         <span class="text-amber-900 font-light tracking-wide">Join the Oasis</span>
                     </div>
-                    
-                    <h2 class="text-4xl md:text-5xl font-light text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
+                    <h2 class="text-5xl font-light text-stone-800 mb-6" style="font-family: 'Playfair Display', serif;">
                         Become a Sanctuary
                     </h2>
-                    <p class="text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
-                        Ready to show the world that people come first at your business? 
-                        Apply for your free Humanity Oasis certification today.
+                    <p class="text-lg text-stone-600 leading-relaxed">
+                        Ready to show the world that people come first at your business? Apply for your free Humanity Oasis certification today.
                     </p>
                 </div>
 
-                <form name="certification" method="POST" data-netlify="true" class="space-y-6">
-                    <input type="hidden" name="form-name" value="certification">
+                <form id="certificationForm" action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                    <input type="hidden" name="access_key" value="082ae421-bda6-42cc-8a73-8821b60922f2">
+                    <input type="hidden" name="subject" value="New Humanity Oasis Certification Application">
+                    <input type="hidden" name="from_name" value="Humanity Oasis Website">
+                    <input type="hidden" name="redirect" value="false">
                     
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-stone-700 mb-2 font-light">Business Name</label>
-                            <input type="text" name="businessName" required class="w-full px-4 py-3 rounded-xl border border-stone-300 bg-white/80 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="Your business name">
+                            <label class="block text-stone-700 mb-2">Business Name</label>
+                            <input type="text" name="business_name" required class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none">
                         </div>
                         <div>
-                            <label class="block text-stone-700 mb-2 font-light">Contact Name</label>
-                            <input type="text" name="contactName" required class="w-full px-4 py-3 rounded-xl border border-stone-300 bg-white/80 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="Your name">
+                            <label class="block text-stone-700 mb-2">Contact Name</label>
+                            <input type="text" name="contact_name" required class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none">
                         </div>
                     </div>
 
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-stone-700 mb-2 font-light">Email Address</label>
-                            <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-stone-300 bg-white/80 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="you@business.com">
+                            <label class="block text-stone-700 mb-2">Email Address</label>
+                            <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none">
                         </div>
                         <div>
-                            <label class="block text-stone-700 mb-2 font-light">Website (Optional)</label>
-                            <input type="url" name="website" class="w-full px-4 py-3 rounded-xl border border-stone-300 bg-white/80 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="https://yourbusiness.com">
+                            <label class="block text-stone-700 mb-2">Website (Optional)</label>
+                            <input type="url" name="website" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none">
                         </div>
                     </div>
 
                     <div>
-                        <label class="block text-stone-700 mb-2 font-light">
-                            How does your business prioritize human connection?
-                        </label>
-                        <textarea name="description" required rows="4" class="w-full px-4 py-3 rounded-xl border border-stone-300 bg-white/80 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none transition-all resize-none" placeholder="Tell us about your commitment to fighting loneliness and fostering real human connection..."></textarea>
+                        <label class="block text-stone-700 mb-2">How does your business prioritize human connection?</label>
+                        <textarea name="description" required rows="4" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-amber-400 focus:ring-2 focus:ring-amber-200 outline-none resize-none"></textarea>
                     </div>
 
-                    <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white py-4 rounded-xl font-light text-lg tracking-wide transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <div id="formMessage" class="hidden text-center p-4 rounded-xl mb-4"></div>
+
+                    <button type="submit" id="submitBtn" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white py-4 rounded-xl text-lg transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed">
                         Submit Application
                     </button>
 
-                    <p class="text-center text-sm text-stone-500 mt-4">
-                        By applying, you're committing to transparent, human-first values. 
+                    <p class="text-center text-sm text-stone-500">
                         Certification is free and reviewed within 48 hours.
                     </p>
                 </form>
+
+                <script>
+                    const form = document.getElementById('certificationForm');
+                    const submitBtn = document.getElementById('submitBtn');
+                    const formMessage = document.getElementById('formMessage');
+
+                    form.addEventListener('submit', async function(e) {
+                        e.preventDefault();
+                        
+                        // Disable button and show loading
+                        submitBtn.disabled = true;
+                        submitBtn.textContent = 'Sending...';
+                        formMessage.classList.add('hidden');
+                        
+                        const formData = new FormData(form);
+                        
+                        try {
+                            const response = await fetch('https://api.web3forms.com/submit', {
+                                method: 'POST',
+                                body: formData
+                            });
+                            
+                            const data = await response.json();
+                            
+                            if (data.success) {
+                                // Show success message
+                                formMessage.classList.remove('hidden', 'bg-red-100', 'text-red-700');
+                                formMessage.classList.add('bg-emerald-100', 'text-emerald-700');
+                                formMessage.innerHTML = '<div class="text-5xl mb-4">✓</div><div class="text-xl font-light mb-2">Welcome to the Oasis!</div><div>We\'ll be in touch within 48 hours.</div>';
+                                
+                                // Reset form
+                                form.reset();
+                                
+                                // Scroll to message
+                                formMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            } else {
+                                throw new Error(data.message || 'Form submission failed');
+                            }
+                        } catch (error) {
+                            // Show error message
+                            formMessage.classList.remove('hidden', 'bg-emerald-100', 'text-emerald-700');
+                            formMessage.classList.add('bg-red-100', 'text-red-700');
+                            formMessage.innerHTML = '<div class="text-3xl mb-2">✗</div><div>Something went wrong. Please email <a href="mailto:bryan@newsload.ca" class="underline font-medium">bryan@newsload.ca</a> directly.</div>';
+                            
+                            console.error('Form error:', error);
+                        } finally {
+                            // Re-enable button
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = 'Submit Application';
+                        }
+                    });
+                </script>
             </div>
         </div>
     </section>
 
-    <!-- Nature Showcase -->
-    <section class="relative py-20 px-6 overflow-hidden">
+    <!-- Nature Photo Section -->
+    <section class="py-20 px-6 bg-stone-50">
         <div class="max-w-7xl mx-auto">
             <div class="relative rounded-3xl overflow-hidden shadow-2xl">
                 <div class="relative h-96 md:h-[600px]">
-                    <img src="oct25_2015_25_of_39.jpg" alt="Autumn forest oasis" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-stone-900/40 via-transparent to-transparent"></div>
-                    
+                    <img src="oct25_2015_25_of_39.jpg" alt="Autumn forest sanctuary" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-stone-900/50 via-transparent to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center px-6">
-                            <h3 class="text-4xl md:text-6xl font-light text-white mb-4 drop-shadow-2xl" style="font-family: 'Playfair Display', serif; text-shadow: 0 4px 20px rgba(0,0,0,0.7);">
+                            <h3 class="text-6xl font-light text-white mb-4" style="font-family: 'Playfair Display', serif; text-shadow: 0 4px 20px rgba(0,0,0,0.7);">
                                 Find Your Sanctuary
                             </h3>
-                            <p class="text-xl md:text-2xl text-amber-100 drop-shadow-lg" style="text-shadow: 0 2px 10px rgba(0,0,0,0.6);">
+                            <p class="text-2xl text-amber-100" style="text-shadow: 0 2px 10px rgba(0,0,0,0.6);">
                                 Where nature reminds us what truly matters
                             </p>
                         </div>
@@ -334,18 +336,15 @@
     </section>
 
     <!-- Footer -->
-    <footer class="relative py-16 px-6 bg-gradient-to-br from-stone-800 to-stone-900 text-white">
+    <footer class="py-16 px-6 bg-gradient-to-br from-stone-800 to-stone-900 text-white">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-3 gap-12 mb-12">
                 <div>
-                    <h3 class="text-2xl font-light mb-4" style="font-family: 'Playfair Display', serif;">
-                        Humanity Oasis
-                    </h3>
+                    <h3 class="text-2xl font-light mb-4" style="font-family: 'Playfair Display', serif;">Humanity Oasis</h3>
                     <p class="text-stone-400 leading-relaxed">
                         Certifying businesses that put people first in an increasingly AI-driven world.
                     </p>
                 </div>
-                
                 <div>
                     <h4 class="text-lg font-light mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-stone-400">
@@ -355,27 +354,15 @@
                         <li><a href="#apply" class="hover:text-amber-400 transition-colors">Get Certified</a></li>
                     </ul>
                 </div>
-
                 <div>
                     <h4 class="text-lg font-light mb-4">Contact</h4>
                     <p class="text-stone-400 mb-2">
-                        <a href="mailto:bryan@newsload.ca" class="hover:text-amber-400 transition-colors">
-                            bryan@newsload.ca
-                        </a>
+                        <a href="/cdn-cgi/l/email-protection#7517070c141b351b100206191a14115b1614" class="hover:text-amber-400 transition-colors"><span class="__cf_email__" data-cfemail="ef8d9d968e81af818a989c83808e8bc18c8e">[email&#160;protected]</span></a>
                     </p>
                     <p class="text-stone-400">
-                        A project by <a href="https://www.newsload.ca" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition-colors">Newsload</a>
+                        A project by <a href="https://www.newsload.ca" target="_blank" class="hover:text-amber-400 transition-colors">Newsload</a>
                     </p>
                 </div>
             </div>
-
             <div class="border-t border-stone-700 pt-8 text-center">
-                <p class="text-stone-500 text-sm">
-                    © 2026 Humanity Oasis. Fighting isolation, one certification at a time.
-                </p>
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
+                <p class="text-stone-500 text-sm">© 2026 Hum
